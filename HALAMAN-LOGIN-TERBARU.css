@@ -1,0 +1,197 @@
+body {
+  background-image: url("Real1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container-pages {
+  
+        position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 300px;
+      width: 300px;
+      max-width: 90vw;
+      max-height: 90vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+}
+
+.password {
+  margin-top: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.2); /* putih transparan */
+ backdrop-filter: blur(10px); /* efek blur */
+ -webkit-backdrop-filter: blur(10px); /* dukungan untuk Safari */
+ border-radius: 20px;
+ border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 30px;
+  width: 450px;
+  border-radius: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+::placeholder {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form button {
+  align-self: flex-end;
+}
+
+.flex-column > label {
+  color: #151717;
+  font-weight: 600;
+}
+
+.inputForm {
+  border: 1.5px solid #ecedec;
+  border-radius: 3em;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.gambar-lock-user {
+  margin-right: 10px;
+  width: 7%;
+}
+
+.input {
+  background-color: transparent;
+  margin-left: 10px;
+  border-radius: 3em;
+  border: none;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+input::placeholder {
+  color: white; /* Ganti dengan warna yang kamu inginkan */
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+.input:focus {
+  outline: none;
+}
+
+.inputForm:focus-within {
+  border: 1.5px solid #2d79f3;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.flex-row > div > label {
+  font-size: 14px;
+  color: black;
+  font-weight: 400;
+}
+
+.span {
+  font-size: 14px;
+  margin-left: 5px;
+  color: #2d79f3;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.a-container {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+}
+
+/* From Uiverse.io by AlimurtuzaCodes */
+.btn {
+  border: none;
+  width: 100%;
+  height: 3rem;
+  border-radius: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: white;
+  cursor: pointer;
+  transition: all 450ms ease-in-out;
+  margin: 0 auto;
+}
+
+.sparkle {
+  fill: #AAAAAA;
+  transition: all 800ms ease;
+}
+
+.text {
+  font-weight: 600;
+  color: black;
+  font-size: medium;
+}
+
+.btn:hover {
+  background: linear-gradient(0deg, #A47CF3, #683FEA);
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+    inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 0px 4px rgba(255, 255, 255, 0.2),
+    0px 0px 180px 0px #9917FF;
+    border-radius: 3em;
+}
+
+.btn:hover .text {
+  color: white;
+}
+
+.btn:hover .sparkle {
+  fill: white;
+  transform: scale(1.2);
+}
+
+.p-register {
+  margin-top: 10px;
+}
